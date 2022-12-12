@@ -113,7 +113,7 @@ body {
 	
 }
 
-#who {
+#about {
 	background-size: 200vh;
 	background-color: #282A3A;
 }
@@ -206,7 +206,7 @@ body {
 	text-align: center;
 }
 
-.project{
+.creators{
 	display: flex;
 }
 
