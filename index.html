@@ -18,6 +18,8 @@
     <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 	<title></title>
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive" id="bg">
@@ -113,7 +115,7 @@
 				<br/>
 <!-- 				<h5>The TTGO T-Beam ESP32 LoRa 915Mhz GPS device is the main node that acted as a mesh network which we used for communication in off-grid areas. It has a long range, LoRa, radio protocol that uses a license-free sub-gigahertz radio frequency band for communication which is available to different regions and does not need a HAM certification.</h5>
 				<br/> -->
-				<h5>By using a smartphone that has DuiKnowIt application installed, we can connect to each device via Bluetooth where we can communicate and locate with other people having the same setup. The DuiKnowIT device has different water-resistant and weatherproof cases (Transparent Enclosed Case and 3D-printed Case). </h5>
+				<h5>By using a smartphone that has DuiKnowIt application installed, we can connect to each device via Bluetooth where we can communicate and locate with other people having the same setup. The DuiKnowIT device has different water-resistant and weatherproof cases (Transparent Enclosed Case and 3D-printed case). </h5>
 				<br/>
 				<h5>The intended use of the application and device is for long range communication in off-grid areas. Another possible application is for personal use in the event that there is no cellular and internet coverage.</h5>
 
@@ -323,7 +325,10 @@
           <input class="btn btn-primary float-left" type="reset" value="Reset">
           <button type="button" value="Submit" class="btn btn-secondary btn-outline-success text-white float-right" data-toggle="modal" data-target="#myModal">Send</button>
 
+          <div class="g-recaptcha" data-sitekey="6Lcpmp4jAAAAAAISEMWqulXLHpMl3EpAlj_b-dGb"></div>
+
         </form>
+
         <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         	<div class="modal-dialog">
         		<div class="modal-content">
